@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Барбершоп VIKING Кременчук</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">VIKING<span>BARBERSHOP</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Мобільне меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="cont_page_title">Контакти</h1>
+                <p data-i18n="cont_page_subtitle">Чекаємо на вас у нашому барбершопі у Кременчуці</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3 data-i18n="addr_title">Адреса</h3>
+                            <p>проспект Свободи 28/42, Кременчук, Полтавська область</p>
+                            <a href="https://maps.google.com/?q=проспект+Свободи+28/42+Кременчук" target="_blank" rel="noopener" class="map-link" data-i18n="open_map">Відкрити на Google Картах &rarr;</a>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="phone_title">Телефон</h3>
+                            <p><a href="tel:+380979170000">+38 (097) 917-00-00</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="hours_title">Графік роботи</h3>
+                            <p data-i18n="hours_text">Пн-Нд: 09:00 - 20:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.888764043961!2d33.415!3d49.072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA0JzE5LjIiTiAzM8KwMjUnMDAuMCJF!5e0!3m2!1suk!2sua!4v1620000000000!5m2!1suk!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo">VIKING<span>BARBERSHOP</span></a>
+                <p data-i18n="footer_desc">Сучасний чоловічий барбершоп у Кременчуці.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>проспект Свободи 28/42, Кременчук</p>
+                <p>+38 (097) 917-00-00</p>
+                <p data-i18n="hours_text">Пн-Нд: 09:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Барбершоп VIKING, Кременчук. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
